@@ -19,7 +19,7 @@ This project is a requirement of graduation from PandasGroup_JC_DS_BSD_JKT_13_Fi
     <li><a href="#model-selection">Model Selection</a></li>
     <li><a href="#explainable-and-interpretable-machine-learning">Explainable and Interpretable Machine Learning</a></li>
     <li><a href="#conclusion-and-recommendation">Conclusion and Recommendation</a></li>
-    <li><a href="#contributors">Contributor</a></li>
+    <li><a href="#contributors">Contributors</a></li>
   </ol>
 </details>
 
