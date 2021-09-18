@@ -1,48 +1,62 @@
-# PandasGroup_JC_DS_BSD_JKT_13_FinalProject
-# HR Analysis
+# HR Analytics: Job Change of Data Scientists
+This project is a requirement of graduation from PandasGroup_JC_DS_BSD_JKT_13_Final Project
 
-## Problem Statement
-**Context**  
-A company which is active in Big Data and Data Science wants to hire data scientists among people who successfully pass some courses which conduct by the company. Many people signup for their training. Company wants to know which of these candidates are really wants to work for the company after training or looking for a new employment because it helps to reduce the cost and time as well as the quality of training or planning the courses and categorization of candidates. Information related to demographics, education, experience are in hands from candidates signup and enrollment.
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Daftar Isi</summary>
+  <ol>
+    <li>
+      <a href="#problem-statement">Problem Statement</a>
+    </li>
+    <li>
+      <a href="#data-understanding">Data Understanding</a>
+    </li>
+    <li>
+      <a href="#exploratory-data-analysis">Exploratory Data Analysis</a>
+    </li>
+    <li><a href="#data-analytics">Data Analytics</a></li>
+    <li><a href="#data-preprocessing">Data Preprocessing</a></li>
+    <li><a href="#model-selection">Model Selection</a></li>
+    <li><a href="#explainable-and-interpretable-machine-learning">Explainable and Interpretable Machine Learning</a></li>
+    <li><a href="#conclusion-and-recommendation">Conclusion and Recommendation</a></li>
+    <li><a href="#contributors">Contributor</a></li>
+  </ol>
+</details>
 
-0 : Not looking for job change  
-1 : Looking for a job change  
+## Background
+**Context :**  
+A company which is active in Big Data and Data Science wants to hire data scientists among people who successfully pass some courses which conduct by the company. Many people signup for their training. Company wants to know which of these candidates are really wants to work for the company after training or looking for a new employment because it helps to reduce the cost and time as well as the quality of training or planning the courses and categorization of candidates. Information related to demographics, education, experience are in hands from candidates signup and enrollment. The source of this dataset is from <a href="https://www.kaggle.com/adityadesai13/used-car-dataset-ford-and-mercedes?select=audi.csv">Kaggle</a>.  
 
-**Problem Statement :**
-
+**Problem Statement :**  
 Hiring process could be time and resource consuming if company targets all candidates only based on their training participation. Company wants to increase recruitment efficiency by knowing which candidates are looking for a job change in their career so they can be hired as data scientist.
 
-**Goals :**
-
+**Goals :**  
 Company can categorized candidates who are looking and not looking for a job change so they can focus the recruitment for people who are willing to work for the company.
 
-**Metric Evaluation**
-Type 1 error : False Positive  
-Consequences: loss of recruitment cost, time and resource
-
-Type 2 error : False Negative  
-Consequences: loss of potential candidate  
-
-Based on that consequences we want to minimize type 1 error and also type 2 error but we are interested in positive class only. So we will use F1-score 
+**Metric Evaluation :**    
+Determine the suitable metric to rate the performance from the model
 
 ## Data Understanding
-***
-* enrollee_id : Unique ID for candidate 
-* city: City code (unknown) 
-* city_ development _index (CDI): Developement index of the city (scaled). Ranks cities according to their Infrastructure, Waste Management, Health, Education, and City Product
-* gender: Gender of candidate 
-* relevent_experience: Relevant experience of candidate 
-* enrolled_university: Type of University course enrolled if any
-* education_level: Education level of candidate 
-* major_discipline :Education major discipline of candidate 
-* experience: Candidate total experience in years
-* company_size: No of employees in current employer's company 
-* company_type : Type of current employer
-* lastnewjob: Difference in years between previous job and current job 
-* training_hours: training hours completed 
-* target: Candidates who decide looking for a job change or not
 
-## Exploratory Data Analysis (EDA)
+| Feature      	| Description                                                                                                                                                                                                               	|
+|--------------	|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
+| enrollee_id         	| Unique ID for candidate                                                                                                                                                                                                             	|
+| city         	| City code (unknown)                                                                                                                                                                                            	|
+| city_ development _index (CDI)        	| Developement index of the city (scaled). Ranks cities according to their Infrastructure, Waste Management, Health, Education, and City Product                                                                                                                                                                                                         	|
+| gender 	| Gender of candidate                                                                                                                                                                                                 	|
+| relevent_experience      	| Relevant experience of candidate                                                                                                                                                                                 	|
+| enrolled_university     	| Type of University course enrolled if any                                                                                                                                                                               	|
+| education_level          	| Education level of candidate                                                                                                                                                                                                         	|
+| major_discipline          	| Education major discipline of candidate                     	|
+| experience   	| Candidate total experience in years 	|
+| company_size        	| No of employees in current employer's company                                                                                                                                                                                                               	|
+| company_type          	| Type of current employer                                                                                                                                                      	|
+| lastnewjob   	| Difference in years between previous job and current job 	|
+| training_hours        	| training hours completed                                                                                                                                                                                                               	|
+| target         	| Candidates who decide looking for a job change or not                                                                                                                                                      	|
+
+## Exploratory Data Analysis
+At this stage, a brief analysis of the data will be carried out, as follows:
 * Data distribution
 * Data Correlation
 * Identify Missing Value
@@ -50,28 +64,32 @@ Based on that consequences we want to minimize type 1 error and also type 2 erro
 * Identify Data Imbalance
 
 ## Data Analytics
+At this stage, another information analysis will be carried out, as follows:
 * Data Proportion
 * Independent Test With Chi Square
 
 ## Data Preprocessing
+At this stage, data preparation and processing will be carried out before being used as a data model, as follows:
 * Fill Missing Value
 * Data Inconsistency
 * Feature Engineering
 * Feature Selection
 
 ## Model Selection
+At this stage will be done making and optimizing the machine learning model, as follows:
 * Model Benchmark
 * Imbalance Data Handling
 * Hyperparameter Tuning
 
 ## Explainable and Interpretable Machine Learning
+Pada tahap ini akan dilakukan penjelasan dalam pengambilan keputusan dari model machine learning, dengan cara sebagai berikut:
 * SHAP 
 * Model Somulation to Data Test
 
 ## Conclusion and Recommendation
 We conclude our result and give recommendation based on it
 
-Contributors:
+## Contributors:
 Abdul Hamid - abdulhamidwinoto@gmail.com  
 Juan Antonio Suwardi - antonio.juan.suwardi@gmail.com  
 Agatha Putri Algustie - agthaptri@gmail.com
