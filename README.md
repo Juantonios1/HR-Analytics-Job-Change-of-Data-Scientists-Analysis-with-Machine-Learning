@@ -3,7 +3,7 @@ This project is a requirement of graduation from PandasGroup_JC_DS_BSD_JKT_13_Fi
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
-  <summary>Daftar Isi</summary>
+  <summary>Table of Content</summary>
   <ol>
     <li>
       <a href="#problem-statement">Problem Statement</a>
@@ -18,6 +18,7 @@ This project is a requirement of graduation from PandasGroup_JC_DS_BSD_JKT_13_Fi
     <li><a href="#data-preprocessing">Data Preprocessing</a></li>
     <li><a href="#model-selection">Model Selection</a></li>
     <li><a href="#explainable-and-interpretable-machine-learning">Explainable and Interpretable Machine Learning</a></li>
+    <li><a href="#example-application-in-real-life">Example Application in Real Life</a></li>
     <li><a href="#conclusion-and-recommendation">Conclusion and Recommendation</a></li>
     <li><a href="#contributors">Contributors</a></li>
   </ol>
@@ -25,13 +26,13 @@ This project is a requirement of graduation from PandasGroup_JC_DS_BSD_JKT_13_Fi
 
 ## Background
 **Context :**  
-A company which is active in Big Data and Data Science wants to hire data scientists among people who successfully pass some courses which conduct by the company. Many people signup for their training. Company wants to know which of these candidates are really wants to work for the company after training or looking for a new employment because it helps to reduce the cost and time as well as the quality of training or planning the courses and categorization of candidates. Information related to demographics, education, experience are in hands from candidates signup and enrollment. The source of this dataset is from <a href="https://www.kaggle.com/adityadesai13/used-car-dataset-ford-and-mercedes?select=audi.csv">Kaggle</a>.  
+A company which is active in Big Data and Data Science wants to hire data scientists among people who successfully pass some courses which conduct by the company From this dataset, we assume if the course is free video learning. Many people signup for their training. Company wants to know which of these candidates are really wants to work for the company after training or looking for a new employment because it helps to reduce the cost and time as well as the quality of training or planning the courses and categorization of candidates. Information related to demographics, education, experience are in hands from candidates signup and enrollment. The source of this dataset is from <a href="https://www.kaggle.com/adityadesai13/used-car-dataset-ford-and-mercedes?select=audi.csv">Kaggle</a>.  
 
 **Problem Statement :**  
-Hiring process could be time and resource consuming if company targets all candidates only based on their training participation. Company wants to increase recruitment efficiency by knowing which candidates are looking for a job change in their career so they can be hired as data scientist.
+Hiring process could be time and resource consuming if company targets all candidates only based on their training participation. Company wants to increase recruitment efficiency by knowing which candidates are looking for a job change in their career so they can be hired as data scientist. If company use old method, they need to offer all candidates and it will use more money and HR Departments have time limit too, they can't ask all candidates 1 by 1 and usually they will take random candidates. It still not efficient because people want to change job is less than not. So we need new method which can reduce cost (money and time) and make success probability increase to reduce CPH.
 
 **Goals :**  
-Company can categorized candidates who are looking and not looking for a job change so they can focus the recruitment for people who are willing to work for the company.
+Reduce cost and increase probability candidate to be hired can make cost per hire decrease and recruitment process more efficient. To predict candidates who will change job or not, we can't use simple statistic and need machine learning so company can categorized candidates who are looking and not looking for a job change. In the end HR Department can have more option to recruit with same budget if compare with old method and also have more time to focus at candidate qualification and get the best candidates to company.
 
 **Metric Evaluation :**    
 Determine the suitable metric to rate the performance from the model
@@ -79,12 +80,16 @@ At this stage, data preparation and processing will be carried out before being 
 At this stage will be done making and optimizing the machine learning model, as follows:
 * Model Benchmark
 * Imbalance Data Handling
+* Threshold Adjustment
 * Hyperparameter Tuning
 
 ## Explainable and Interpretable Machine Learning
-Pada tahap ini akan dilakukan penjelasan dalam pengambilan keputusan dari model machine learning, dengan cara sebagai berikut:
+At this stage there will be an explanation in the decision making of the machine learning model, in the following ways:
 * SHAP 
 * Model Somulation to Data Test
+
+## Example Application in Real Life
+At this stage we try to aplicate machine learning to solve business problem and get business objective
 
 ## Conclusion and Recommendation
 We conclude our result and give recommendation based on it
