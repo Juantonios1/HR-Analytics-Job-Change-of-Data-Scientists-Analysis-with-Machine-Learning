@@ -80,8 +80,8 @@ At this stage, data preparation and processing will be carried out before being 
 At this stage will be done making and optimizing the machine learning model, as follows:
 * Model Benchmark
 * Imbalance Data Handling
-* Threshold Adjustment
 * Hyperparameter Tuning
+* Threshold Adjustment
 
 ## Explainable and Interpretable Machine Learning
 At this stage there will be an explanation in the decision making of the machine learning model, in the following ways:
