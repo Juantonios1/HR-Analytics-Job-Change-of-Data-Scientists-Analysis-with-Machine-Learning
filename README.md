@@ -6,7 +6,7 @@ This project is a requirement of graduation from PandasGroup_JC_DS_BSD_JKT_13_Fi
   <summary>Table of Content</summary>
   <ol>
     <li>
-      <a href="#problem-statement">Problem Statement</a>
+      <a href="#background">Background</a>
     </li>
     <li>
       <a href="#data-understanding">Data Understanding</a>
