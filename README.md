@@ -1,8 +1,7 @@
 # HR Analytics: Job Change of Data Scientists
 This project is a requirement of graduation from PandasGroup_JC_DS_BSD_JKT_13_Final Project
 
-![Churn](churn.jpeg)
-
+![HR_analytics](Image/HR.jpg)
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary>Table of Content</summary>
@@ -28,6 +27,7 @@ This project is a requirement of graduation from PandasGroup_JC_DS_BSD_JKT_13_Fi
 
 ## Background
 **Context :**  
+
 A company which is active in Big Data and Data Science wants to hire data scientists among people who successfully pass some courses which conduct by the company From this dataset, we assume if the course is free video learning. Many people signup for their training. Company wants to know which of these candidates are really wants to work for the company after training or looking for a new employment because it helps to reduce the cost and time as well as the quality of training or planning the courses and categorization of candidates. Information related to demographics, education, experience are in hands from candidates signup and enrollment. The source of this dataset is from <a href="https://www.kaggle.com/adityadesai13/used-car-dataset-ford-and-mercedes?select=audi.csv">Kaggle</a>.  
 
 **Problem Statement :**  
