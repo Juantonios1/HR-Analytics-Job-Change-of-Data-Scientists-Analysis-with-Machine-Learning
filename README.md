@@ -40,6 +40,7 @@ Reduce cost and increase probability candidate to be hired can make cost per hir
 
 **Metric Evaluation :**    
 Determine the suitable metric to rate the performance from the model
+![Matrix](Image/Matrix.png)
 
 ## Data Understanding
 
@@ -90,6 +91,7 @@ At this stage will be done making and optimizing the machine learning model, as 
 ## Explainable and Interpretable Machine Learning
 At this stage there will be an explanation in the decision making of the machine learning model, in the following ways:
 * SHAP 
+![SHAP](Image/SHAP.png)
 
 ## Example Application in Real Life
 At this stage we try to aplicate machine learning to solve business problem and get business objective
