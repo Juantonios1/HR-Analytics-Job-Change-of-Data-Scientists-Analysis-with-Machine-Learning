@@ -1,6 +1,8 @@
 # HR Analytics: Job Change of Data Scientists
 This project is a requirement of graduation from PandasGroup_JC_DS_BSD_JKT_13_Final Project
 
+![Churn](churn.jpeg)
+
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary>Table of Content</summary>
