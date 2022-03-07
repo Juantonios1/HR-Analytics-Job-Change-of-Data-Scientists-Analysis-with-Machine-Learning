@@ -97,6 +97,7 @@ At this stage will be done making and optimizing the machine learning model, as 
 ## Explainable and Interpretable Machine Learning
 At this stage there will be an explanation in the decision making of the machine learning model, in the following ways:
 * SHAP 
+
 ![SHAP](Image/SHAP.png)
 
 ## Example Application in Real Life
