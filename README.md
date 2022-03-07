@@ -1,6 +1,8 @@
 # HR Analytics: Job Change of Data Scientists
 This project is a requirement of graduation from PandasGroup_JC_DS_BSD_JKT_13_Final Project
 
+In this project i want to explore about people who join training data science from company with their interest to change job or become data scientist in the company. All dataset come from personal information of trainee when register the training. This project include Data Analysis, Modeling Machine Learning, Visualization using SHAP using 13 features and 19158 data.
+
 ![HR_analytics](Image/HR.jpg)
 <!-- TABLE OF CONTENTS -->
 <details open="open">
