@@ -84,6 +84,12 @@ At this stage, data preparation and processing will be carried out before being 
 ## Model Selection
 At this stage will be done making and optimizing the machine learning model, as follows:
 * Model Benchmark
+  * Logistic Regression
+  * KNN Classifier
+  * Decision Tree
+  * Random Forest
+  * XGBoost
+  * Catboost
 * Imbalance Data Handling
 * Hyperparameter Tuning
 * Threshold Adjustment
@@ -97,7 +103,15 @@ At this stage there will be an explanation in the decision making of the machine
 At this stage we try to aplicate machine learning to solve business problem and get business objective
 
 ## Conclusion and Recommendation
-We conclude our result and give recommendation based on it
+We conclude our result and give recommendation based on it.
+* Conclusion
+  * Candidate that comes from low `city_development_index` has higher chance to look for a new job compared to the higher one. (Domicile Factor)
+  * Candidate that comes from low `company_size` has higher chance to look for a new job compared to the higher one. (Company Size)
+  * For another recommendation, please check Notebook.
+* Recommendation
+  * HR can focus to offer the job for candidates who live in city_160 because all candidates from this city is looking for a new job and city_21 because the proportion of candidates who looking for a job is higher than candidates who not looking for a job change
+  * HR can develop data collecting method to get another features for analyzed and better data quality to help data scientist make a better prediction model
+  * For another recommendation, please check Notebook.
 
 ## Contributors:
 Abdul Hamid - abdulhamidwinoto@gmail.com  
